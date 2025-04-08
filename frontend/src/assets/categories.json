@@ -1,0 +1,73 @@
+[
+    {
+        "speciality": "Vegetables",
+        "image": "vegetables.png",
+        "subcategories": [
+            { "name": "Tomato", "image": "path/to/tomato.jpg" },
+            { "name": "Onion", "image": "path/to/onion.jpg" },
+            { "name": "Potato", "image": "path/to/potato.jpg" }
+        ]
+    },
+    {
+        "speciality": "Fruits",
+        "image": "fruits.png",
+        "subcategories": [
+            { "name": "Apple", "image": "path/to/apple.jpg" },
+            { "name": "Banana", "image": "path/to/banana.jpg" },
+            { "name": "Orange", "image": "path/to/orange.jpg" }
+        ]
+    },
+    {
+        "speciality": "Herbs & Spices",
+        "image": "spices.png",
+        "subcategories": [
+            { "name": "Basil", "image": "path/to/basil.jpg" },
+            { "name": "Mint", "image": "path/to/mint.jpg" },
+            { "name": "Cinnamon", "image": "path/to/cinnamon.jpg" }
+        ]
+    },
+    {
+        "speciality": "Honey",
+        "image": "honey.png",
+        "subcategories": [
+            { "name": "Raw Honey", "image": "path/to/raw_honey.jpg" },
+            { "name": "Organic Honey", "image": "path/to/organic_honey.jpg" }
+        ]
+    },
+    {
+        "speciality": "Dairy Products",
+        "image": "dairy.png",
+        "subcategories": [
+            { "name": "Milk", "image": "path/to/milk.jpg" },
+            { "name": "Cheese", "image": "path/to/cheese.jpg" },
+            { "name": "Butter", "image": "path/to/butter.jpg" }
+        ]
+    },
+    {
+        "speciality": "Dry Fruits & Nuts",
+        "image": "nuts.png",
+        "subcategories": [
+            { "name": "Almonds", "image": "path/to/almonds.jpg" },
+            { "name": "Cashews", "image": "path/to/cashews.jpg" },
+            { "name": "Walnuts", "image": "path/to/walnuts.jpg" }
+        ]
+    },
+    {
+        "speciality": "Grains & Cereals",
+        "image": "grains.png",
+        "subcategories": [
+            { "name": "Rice", "image": "path/to/rice.jpg" },
+            { "name": "Wheat", "image": "path/to/wheat.jpg" },
+            { "name": "Oats", "image": "path/to/oats.jpg" }
+        ]
+    },
+    {
+        "speciality": "Edible Oils & Fats",
+        "image": "oil.png",
+        "subcategories": [
+            { "name": "Olive Oil", "image": "path/to/olive_oil.jpg" },
+            { "name": "Coconut Oil", "image": "path/to/coconut_oil.jpg" },
+            { "name": "Butter", "image": "path/to/butter.jpg" }
+        ]
+    }
+]

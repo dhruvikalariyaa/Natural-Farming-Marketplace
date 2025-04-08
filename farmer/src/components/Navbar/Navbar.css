@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and profile section */
+    align-items: center; /* Center vertically */
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+.navbar-logo {
+    margin: 0 0 0 30px; /* Space on the left */
+    /* border: 2px solid #ffe6e2;  */
+  margin-left: 30px;
+    width: 110px;
+    height: 110px; /* Adjust logo size */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.navbar-profile {
+    display: flex;
+    /* border: 2px solid #ffe6e2;  */
+    align-items: center; /* Center profile image and button vertically */
+}
+
+.profile {
+    height: 40px; /* Adjust profile image size */
+    border-radius: 50%; /* Circular profile image */
+    margin-right: 10px; /* Space between image and button */
+    cursor: pointer; /* Change cursor on hover */
+     /* White border for profile image */
+    transition: transform 0.2s; /* Transition for hover effect */
+}
+
+.profile:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.logout-button {
+  margin-right: 30px;
+    background-color:#008037; /* Light background */
+    color: white; /* Casual text color */
+    border: none; /* No border */
+    width: 100px; /* Adjust button width */
+    height: 40px;
+    font-weight: bolder;
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 12px; /* Padding for button */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 15px; /* Slightly larger text */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.logout-button:hover {
+    /* background-color: #ffab91; Light color on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+hr {
+    border: none;       /* Removes default border */
+    height: 4px;        /* Adjust thickness */
+    background-color: #008037;  /* Green color */
+    /* margin: 10px 0;     Adjust spacing */
+  }
+  

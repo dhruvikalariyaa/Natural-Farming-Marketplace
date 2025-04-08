@@ -1,0 +1,115 @@
+.footer-container {
+  margin: 0 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7; /* Adjust opacity to make content readable */
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 56px;
+  margin-top: 100px;
+  text-align: left;
+  color: #008037;
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+}
+
+.footer-logo {
+  width: 160px;
+}
+
+.footer-description {
+  width: 100%;
+  max-width: 450px;
+  color: gray;
+  line-height: 1.6;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  color: gray;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-links li:hover {
+  color: #00582b;
+}
+
+.footer-feedback {
+  grid-column: span 3;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-feedback h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #008037;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #00582b;
+}
+
+.footer-bottom {
+  background-color: #008037;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+.footer-copyright {
+  padding: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,53 @@
+.farmer-container {
+  width: 100%;
+  /* max-width: 100%; */
+  padding: 10px;
+  text-align: center;
+  }
+  
+  .loading-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .farmer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .farmer-table th,
+  .farmer-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+    white-space: nowrap; /* Prevents text wrapping */
+  }
+  
+  .farmer-table th {
+    background-color: #008037; 
+    color: white;
+    font-weight: bold;
+  }
+  
+  .approved {
+    color: green;
+  }
+  
+  .pending {
+    color: red;
+  }
+
+  .farmer-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+
+  .farmer-table tbody tr:hover {
+    background-color: #c7ffaf;
+  }
+

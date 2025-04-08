@@ -1,0 +1,89 @@
+/* Cart Container */
+.cart-container {
+  max-width: auto;
+  padding: 40px;
+  margin: 40px ; 
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+/* Title */
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Total Price */
+.cart-total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 20px;
+  color: #27ae60;
+}
+
+/* Table Styling */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cart-table th, .cart-table td {
+  padding: 12px;
+}
+
+.cart-table th {
+  background: #f4f4f4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Item Image */
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+  /* margin: auto; */
+  
+}
+
+/* Remove Button */
+.cart-remove-button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cart-remove-button:hover {
+  background: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cart-table th, .cart-table td {
+      padding: 8px;
+      font-size: 14px;
+  }
+
+  .cart-item-image {
+      width: 40px;
+      height: 40px;
+  }
+
+  .cart-remove-button {
+      padding: 4px 8px;
+      font-size: 12px;
+  }
+}

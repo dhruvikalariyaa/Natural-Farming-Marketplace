@@ -1,0 +1,138 @@
+.place-order {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.place-order-left, .place-order-right {
+    flex: 1;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.place-order-left .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+input {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.multi-field {
+    display: flex;
+    gap: 10px;
+}
+
+.multi-field input {
+    flex: 1;
+}
+
+.cart-total {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.cart-total hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+.payment {
+    margin-top: 2rem;
+}
+
+.payment h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.payment-option {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.payment-option:hover {
+    background: #eef2ff;
+    border-color: #4c70ff;
+}
+
+.payment-option img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.payment-option p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.place-order-submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #4c70ff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem;
+}
+
+.place-order-submit:hover {
+    background: #3557d0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .place-order {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .place-order-left, .place-order-right {
+        width: 100%;
+    }
+}

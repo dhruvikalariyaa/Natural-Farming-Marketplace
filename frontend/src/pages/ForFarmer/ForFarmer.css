@@ -1,0 +1,41 @@
+.for-farmer-container {
+    padding: 20px;
+    
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.for-farmer-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #008037;
+    margin-bottom: 20px;
+}
+
+.for-farmer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.instruction-section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.instruction-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.instruction-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}

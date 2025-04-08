@@ -1,0 +1,115 @@
+/* Main Container */
+.speciality-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* 16px */
+    padding: 4rem 0; /* 64px 0 */
+    color: #262626;
+}
+
+/* Menu Title */
+.menu-title {
+    font-size: 1.875rem; /* 30px */
+    font-weight: 500;
+    color: #008037; /* Green color */
+}
+
+/* Menu Description */
+.menu-description {
+    width: 100%;
+    max-width: 33.333%; /* 1/3 of the container */
+    text-align: center;
+    font-size: 0.875rem; /* 14px */
+    color: #262626;
+}
+
+/* Categories Container */
+.categories-container-main {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* 16px */
+    padding-top: 1.25rem; /* 20px */
+    width: 100%;
+    /* overflow-x: scroll; Horizontal scroll for small screens */
+}
+
+/* Category Item */
+.category-item-main {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem; /* 12px */
+    cursor: pointer;
+    flex-shrink: 0; /* Prevent shrinking */
+    transition: transform 0.5s ease;
+}
+
+.category-item-main:hover {
+    transform: translateY(-0.625rem); /* -10px */
+}
+
+/* Category Image */
+.category-image-main {
+    width: 4rem; /* 64px */
+    height: 4rem; /* 64px */
+    margin-bottom: 0.5rem; /* 8px */
+}
+
+@media (min-width: 640px) {
+    .category-image-main {
+        width: 6rem; /* 96px */
+        height: 6rem; /* 96px */
+    }
+}
+
+/* Category Name */
+.category-name-main {
+    font-size: 0.9375rem; /* 15px */
+    text-align: center;
+    color: #262626;
+    text-decoration: none;
+}
+
+/* Loader Container */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust height as needed */
+}
+
+/* Custom Spinner */
+.custom-spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid rgba(0, 128, 55, 0.2); /* Light green border */
+    border-top: 4px solid #008037; /* Green color for the spinner */
+    animation: spin 0.3s linear infinite; /* Faster spin (0.5s duration) */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Loading Text */
+.loader-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #008037; /* Green color for the text */
+    font-weight: 500;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Visible Class */
+.visible {
+    display: flex;
+}
